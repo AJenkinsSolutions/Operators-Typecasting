@@ -1,4 +1,4 @@
-package com.perscholar.readingstdin;
+package com.perscholas.readingstdin;
 
 import java.util.Scanner;
 /**
