@@ -71,17 +71,13 @@ public class MonetaryUnitPractiseAssignemnt {
 		//find dollars 
 		dollars = getDollarAmount(amountLeftInCents);
 		
-		
 		//get the remainder of amount modulus 100
 		amountLeftInCents = getRemainingAmount(amountLeftInCents, 100);
-		
-
 		
 		//quarters
 		quarters = getQuarterAmount(amountLeftInCents);	
 		amountLeftInCents = getRemainingAmount(amountLeftInCents, 25);
 	
-		
 		//dime
 		dime = getDimeAmount(amountLeftInCents);
 		amountLeftInCents = getRemainingAmount(amountLeftInCents, 10);
@@ -95,11 +91,6 @@ public class MonetaryUnitPractiseAssignemnt {
 		
 		System.out.println(amountLeftInCents);
 		System.out.printf("Dollars: %d, Quarters: %d, Dime: %d, Nickle: %d, Pennies: %d", dollars, quarters, dime, nickles, pennies);
-
-		
-		
-	
-		
 
 	}
 	
