@@ -36,6 +36,7 @@ public class ReadingStringFromConsole {
 	}
 	public static void main(String[] args) {
 		Scanner inputScanner = new Scanner(System.in);		
+		
 		method1(inputScanner);
 		
 		
