@@ -7,6 +7,10 @@ import java.util.Scanner;
  * Takes A strings.
  * removes all non alphabetic tokens are returns the string as a list of characters.
  * Based on a hackerRank question
+ * isBlank(): checks to if string is empty, counts spaces and new line as empty
+ * trim(): removes all leading and trailing whitespace 
+ * .replaceAll: replaces all occurrences of specified char sequence
+ * split(): return all characters of a string split by a specified delimiter 
  * @author apjenkins
  * @version 1.0
  *
