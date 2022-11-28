@@ -51,11 +51,27 @@ public class LoopsPracticeAssignment {
 		
 		
 	}
+	
+	
+	public static void predictFutureTution() {
+		double tutiion = 10.000;
+		double dblTution = tutiion * 2;
+		int years = 0;
+		
+		while (tutiion <= dblTution) {
+			
+			tutiion = 1.07 * tutiion;
+			years ++;
+			
+		}
+		System.out.printf("Tution is %.2f in %d years",tutiion, years);
+	}
 	public static void main(String[] args) {
 		getTimesTable();
 		
-		getGreatCommonDivisor();
-		
+//		getGreatCommonDivisor();
+//		
+		predictFutureTution();
 
 	}
 
