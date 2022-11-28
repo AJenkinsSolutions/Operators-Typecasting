@@ -9,7 +9,6 @@ import javax.swing.event.AncestorEvent;
 public class LoopsPracticeAssignment {
 
 	public static void getTimesTable() {
-		int start = 1; 
 		
 		
 		for(int i=1; i <=12; i ++) {
