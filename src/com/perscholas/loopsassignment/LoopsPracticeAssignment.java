@@ -69,10 +69,10 @@ public class LoopsPracticeAssignment {
 	public static void main(String[] args) {
 		getTimesTable();
 		
-//		getGreatCommonDivisor();
+		getGreatCommonDivisor();
 //		
 		predictFutureTution();
-
+		
 	}
 
 }
