@@ -7,6 +7,10 @@ public class StoneMonster extends Monster{
 	
 	
 	
+	public StoneMonster() {
+		
+	}
+
 	public StoneMonster(String name, String powerElement) {
 		this.name = name;
 		this.powerElement = powerElement;

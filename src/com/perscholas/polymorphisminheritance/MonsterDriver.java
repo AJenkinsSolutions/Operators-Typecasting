@@ -16,6 +16,7 @@ public class MonsterDriver {
 		fireMonster.showPowers();
 		waterMonster.showPowers();
 		stoneMonster.showPowers();
+		
 	}
 	
 	
