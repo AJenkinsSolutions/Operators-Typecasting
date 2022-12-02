@@ -2,7 +2,7 @@ package com.persholas.polymorphisminterfaces;
 
 public class LibaryInterfaceDemo {
 
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		KidUser k1 = new KidUser();
