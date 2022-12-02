@@ -30,6 +30,9 @@ public class CreateArrayListFromCollectionExample {
 		nextFivePrimeNumbers.add(23);
 		nextFivePrimeNumbers.add(29);
 		
+		/**
+		 * Adding combing both array together
+		 */
 		firstTenPrimeNumbers.addAll(nextFivePrimeNumbers);
 		System.out.println(firstTenPrimeNumbers);
 		
