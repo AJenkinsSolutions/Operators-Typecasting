@@ -23,7 +23,6 @@ public class TreeSetExamples {
 	       System.out.println(cities);
 	       System.out.println(cities.descendingSet());
 	       
-	       System.out.println(cities);
 
 //	       System.out.println("TreeSet: " + cities);
 
